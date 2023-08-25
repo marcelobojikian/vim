@@ -46,7 +46,7 @@ To use this script, make sure the packages are installed.
 
 1. In the terminal,
     ```bash
-    git clone https://github.com/marcelobojikian/vim
+    git clone https://github.com/marcelobojikian/vim.git
     chmod +x ./vim/posInstaller.sh
     ```
 1. Run `./vim/posInstaller.sh`.
