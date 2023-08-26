@@ -24,6 +24,14 @@ else
   echo "[X] NERDtree"
 fi
 
+if [ -d "$DIST_VIM/bundle/emmet-vim" ]; then
+  echo "[X] Emmet-vim"
+else
+  echo "Installing the Emmet the essential toolkit for web-developers"
+  git clone https://github.com/mattn/emmet-vim.git $DIST_VIM/bundle/emmet-vim
+  echo "[X] Emmet-vim"
+fi
+
 if [ -f "$DIST_VIM/colors/Tomorrow-Night-Eighties.vim" ]; then
   echo "[X] vim-tomorrow-theme"
 else
