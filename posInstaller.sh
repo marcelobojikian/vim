@@ -53,4 +53,10 @@ set number
 set relativenumber
 set incsearch
 set hlsearch
+
+set fileencoding=iso-8859-1
+set encoding=iso-8859-1
+
+set expandtab
+set softtabstop=2
 EOF
